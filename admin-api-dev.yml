@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecommerce
+    username: root
+    password: naman_966
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/   
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+app:
+  images:
+     upload-dir: D:\Study\E-Commerce\Product-Images\
+
