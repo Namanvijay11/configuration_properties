@@ -21,6 +21,8 @@ management:
       exposure:
         include: '*'
 
-app:
-  images:
-     upload-dir: D:\Study\E-Commerce\Product-Images\
+# app:
+#   images:
+#      upload-dir: D:\Study\E-Commerce\Product-Images\
+
+images-upload-dir: D:\Study\E-Commerce\Product-Images\
